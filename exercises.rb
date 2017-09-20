@@ -9,3 +9,14 @@ definitions = {}
 definitions [:up] = "toward the sky or a higher position."
 definitions [:down] = "toward or in a lower place or position, especially to or on the ground or another surface"
 definitions [:side] = "a position to the left or right of an object, place, or central point."
+
+top_three_movies = {:the_godfather => 1972, :the_godfather_2 => 1974, :the_godfather_3 => 1990}
+
+population_by_city = {toronto: 2731571, new_york: 8175133, caracas: 1943901}
+
+family = {}
+
+family [:tony] = 34
+family [:daniel] = 35
+family [:luz_marina] = 54
+family [:valentina] = 33
