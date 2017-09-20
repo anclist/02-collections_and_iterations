@@ -20,3 +20,9 @@ family [:tony] = 34
 family [:daniel] = 35
 family [:luz_marina] = 54
 family [:valentina] = 33
+
+heads_or_tails.each do |head|
+  puts "#{head}"
+end
+
+puts "#{fav_colours[0]}"
