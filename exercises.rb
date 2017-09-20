@@ -58,3 +58,13 @@ puts "#{family_age.sort!.reverse!}"
 top_three_movies["Beauty and the Beast"] = [1991, 2017]
 
 puts "#{top_three_movies["Beauty and the Beast"]}"
+
+puts "#{family_age.select { |age| age < 30 }}"
+
+puts "#{family_age.max}"
+
+puts "#{heads_or_tails.count { |result| result == "heads"}}"
+
+fav_artists.delete("Carlos Vives")
+
+population_by_city[:caracas] = 2100500
