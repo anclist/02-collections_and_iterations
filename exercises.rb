@@ -10,7 +10,7 @@ definitions [:up] = "toward the sky or a higher position."
 definitions [:down] = "toward or in a lower place or position, especially to or on the ground or another surface"
 definitions [:side] = "a position to the left or right of an object, place, or central point."
 
-top_three_movies = {:the_godfather => 1972, :the_godfather_2 => 1974, :the_godfather_3 => 1990}
+top_three_movies = {"The Godfather" => 1972, "The Godfather 2" => 1974, "The Godfather 3" => 1990}
 
 population_by_city = {toronto: 2731571, new_york: 8175133, caracas: 1943901}
 
@@ -26,3 +26,11 @@ heads_or_tails.each do |head|
 end
 
 puts "#{fav_colours[0]}"
+
+puts "#{family_age.sort}"
+
+family_age << 0
+
+top_three_movies.each do |movie, year|
+  puts "The movie is #{movie} and the year is #{year}"
+end
