@@ -1,0 +1,5 @@
+fav_colours = ["blue", "dark blue", "navy blue", "matte blue"]
+family_age = [34, 35, 33, 32, 37, 28]
+heads_or-tails = ["heads", "tails", "heads", "tails", "heads"]
+fav_artists = ["Marc Anthony", "Carlos Vives", "Ruben Blades"]
+fav_colours_as_symbols [:blue, :dark_blue, :navy_blue, :matte_blue]
