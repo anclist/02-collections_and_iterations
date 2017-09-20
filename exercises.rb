@@ -46,3 +46,15 @@ puts "#{population_by_city[:caracas]}"
 fav_artists.each do |singer|
   puts "I think #{singer} is great."
 end
+
+puts "#{fav_artists[0]}, #{fav_artists[1]}"
+
+top_three_movies.each do |movie, year|
+  puts "#{movie} came out in #{year}."
+end
+
+puts "#{family_age.sort!.reverse!}"
+
+top_three_movies["Beauty and the Beast"] = [1991, 2017]
+
+puts "#{top_three_movies["Beauty and the Beast"]}"
