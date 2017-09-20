@@ -1,6 +1,6 @@
 fav_colours = ["blue", "dark blue", "navy blue", "matte blue"]
 family_age = [34, 35, 33, 32, 37, 28]
-heads_or_tails = ["heads", "tails", "heads", "tails", "heads"]
+heads_or_tails = ["heads", "tails", "heads", "heads", "heads"]
 fav_artists = ["Marc Anthony", "Carlos Vives", "Ruben Blades"]
 fav_colours_as_symbols = [:blue, :dark_blue, :navy_blue, :matte_blue]
 
@@ -33,4 +33,16 @@ family_age << 0
 
 top_three_movies.each do |movie, year|
   puts "The movie is #{movie} and the year is #{year}"
+end
+
+puts "#{fav_colours[-1]}"
+
+population_by_city[:madrid] = 3141991
+
+heads_or_tails.reverse!
+
+puts "#{population_by_city[:caracas]}"
+
+fav_artists.each do |singer|
+  puts "I think #{singer} is great."
 end
