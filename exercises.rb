@@ -1,3 +1,6 @@
+#EXERCISE 0
+
+
 fav_colours = ["blue", "dark blue", "navy blue", "matte blue"]
 family_age = [34, 35, 33, 32, 37, 28]
 heads_or_tails = ["heads", "tails", "heads", "heads", "heads"]
@@ -16,14 +19,16 @@ population_by_city = {toronto: 2731571, new_york: 8175133, caracas: 1943901}
 
 family = {}
 
-family [:tony] = 34
-family [:daniel] = 35
-family [:luz_marina] = 54
-family [:valentina] = 33
+family ["Tony"] = 34
+family ["Daniel"] = 35
+family ["Luz Marina"] = 54
+family ["Valentina"] = 33
 
-heads_or_tails.each do |head|
-  puts "#{head}"
-end
+
+#EXERCISE 01
+
+
+puts "#{heads_or_tails}"
 
 puts "#{fav_colours[0]}"
 
@@ -31,9 +36,9 @@ puts "#{family_age.sort}"
 
 family_age << 0
 
-top_three_movies.each do |movie, year|
-  puts "The movie is #{movie} and the year is #{year}"
-end
+puts "#{top_three_movies.values_at("The Godfather")}"
+
+#EXERCISE 02
 
 puts "#{fav_colours[-1]}"
 
@@ -47,6 +52,8 @@ fav_artists.each do |singer|
   puts "I think #{singer} is great."
 end
 
+#EXERCISE 03
+
 puts "#{fav_artists[0]}, #{fav_artists[1]}"
 
 top_three_movies.each do |movie, year|
@@ -59,6 +66,8 @@ top_three_movies["Beauty and the Beast"] = [1991, 2017]
 
 puts "#{top_three_movies["Beauty and the Beast"]}"
 
+#EXERCISE 04
+
 puts "#{family_age.select { |age| age < 30 }}"
 
 puts "#{family_age.max}"
@@ -68,3 +77,28 @@ puts "#{heads_or_tails.count { |result| result == "heads"}}"
 fav_artists.delete("Carlos Vives")
 
 population_by_city[:caracas] = 2100500
+
+#EXERCISE 05
+
+puts "#{population_by_city.sum { |city, population| population}}"
+
+family.select do |name, age|
+  if age > 40
+    puts "#{name} is old."
+  else
+    puts "#{name} is young."
+  end
+end
+
+puts "#{fav_colours[-1]} and #{fav_colours[-2]}"
+
+family_age.each do |each_age|
+  puts "#{each_age + 1}"
+end
+
+
+fav_colours << "red"
+fav_colours << "green"
+
+
+#EXERCISE 06
