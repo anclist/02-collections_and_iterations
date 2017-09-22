@@ -102,3 +102,25 @@ fav_colours << "green"
 
 
 #EXERCISE 06
+
+20.times do
+  puts "I will not skateboard in the halls"
+end
+
+skate = []
+20.times do
+  skate << "I will not skateboard in the halls"
+end
+
+in_between  = Array (1..50)
+
+sum = 0
+in_between.each do |number|
+  sum += number
+end
+
+puts "#{sum}"
+
+new_array = in_between.map { |e| [e, e, e] }
+
+new_array.flatten
