@@ -100,8 +100,31 @@ end
 fav_colours << "red"
 fav_colours << "green"
 
-
 #EXERCISE 06
+
+movies_by_year = {}
+
+movies_by_year[1999] = ["The Matrix", "Star Wars: Episode 1", "The Mummy"]
+movies_by_year[2009] = ["Avatar", "Star Trek", "District 9"]
+movies_by_year[2019] = ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"]
+
+phone_buttons = []
+
+phone_buttons[0] = [1, 2, 3]
+phone_buttons[1] = [4, 5, 6]
+phone_buttons[2] = [7, 8, 9]
+phone_buttons[3] = ["*", 0, "#"]
+
+
+countries = [canada, germany, australia]
+
+canada = {name: "Canada", continent: "America", island: false}
+germany = {name: "Germany", continent: "Europe", island: false}
+australia = {name: "Autralia", continent: "Australia", island: true}
+
+
+
+#EXERCISE 07
 
 20.times do
   puts "I will not skateboard in the halls"
