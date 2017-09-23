@@ -11,3 +11,11 @@ students = {
 students[:cohort4] = 43
 
 puts students.keys
+
+students.each do |k, v|
+  puts v * 1.05
+end
+
+students.delete(:cohort2)
+
+puts students
