@@ -165,3 +165,11 @@ total_expenses(expenses)
 expenses = [155, 143.5, 30]
 
 total_expenses(expenses)
+
+#EXERCISE 08
+
+grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
+
+grocery_list.each do |items|
+  puts "* #{items}"
+end
