@@ -116,15 +116,15 @@ phone_buttons[2] = [7, 8, 9]
 phone_buttons[3] = ["*", 0, "#"]
 
 
-countries = [canada, germany, australia]
-
 canada = {name: "Canada", continent: "America", island: false}
 germany = {name: "Germany", continent: "Europe", island: false}
 australia = {name: "Autralia", continent: "Australia", island: true}
 
+countries = [canada, germany, australia]
 
+countries
 
-#EXERCISE 07
+#EXERCISE 06.1
 
 20.times do
   puts "I will not skateboard in the halls"
@@ -147,3 +147,21 @@ puts "#{sum}"
 new_array = in_between.map { |e| [e, e, e] }
 
 new_array.flatten
+
+#ASK FOR EXERCISE 06.1 NUMBER 6
+
+#EXERCISE 07
+
+expenses = [250, 7.95, 30.95, 16.50]
+
+total_expenses = 0
+
+def total_expenses(expenses)
+  total_expenses = expenses.sum
+end
+
+total_expenses(expenses)
+
+expenses = [155, 143.5, 30]
+
+total_expenses(expenses)
