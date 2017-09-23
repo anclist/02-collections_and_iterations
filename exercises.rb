@@ -150,6 +150,9 @@ new_array.flatten
 
 #ASK FOR EXERCISE 06.1 NUMBER 6
 
+countries[0, 3]
+
+
 #EXERCISE 07
 
 expenses = [250, 7.95, 30.95, 16.50]
@@ -188,3 +191,5 @@ if grocery_list.include?("bananas") == false
 else
   "You need to pick up bananas"
 end
+
+puts grocery_list[1]
