@@ -193,3 +193,9 @@ else
 end
 
 puts grocery_list[1]
+
+print_items(grocery_list.sort)
+
+grocery_list.delete("salmon")
+
+print_items(grocery_list.sort)
