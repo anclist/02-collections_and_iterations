@@ -19,3 +19,9 @@ end
 students.delete(:cohort2)
 
 puts students
+
+total_students = 0
+
+students.each do |k, v|
+  puts total_students += v
+end
