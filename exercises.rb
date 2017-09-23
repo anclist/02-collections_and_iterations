@@ -170,6 +170,13 @@ total_expenses(expenses)
 
 grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
-grocery_list.each do |items|
-  puts "* #{items}"
+def print_items(grocery_list)
+  grocery_list.each do |items|
+    puts "* #{items}"
+  end
 end
+print_items(grocery_list)
+
+grocery_list << "rice"
+
+print_items(grocery_list)
