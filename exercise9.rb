@@ -7,3 +7,7 @@ students = {
   students.each do |k, v|
     puts "#{k.to_s}: #{v} students"
   end
+
+students[:cohort4] = 43
+
+puts students.keys
