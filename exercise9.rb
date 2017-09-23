@@ -3,3 +3,7 @@ students = {
   :cohort2 => 42,
   :cohort3 => 22
 }
+
+  students.each do |k, v|
+    puts "#{k.to_s}: #{v} students"
+  end
